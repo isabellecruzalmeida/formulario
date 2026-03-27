@@ -1,6 +1,9 @@
 import { NextResponse } from 'next/server';
 import prisma from '../../../lib/prisma';
 
+export const dynamic = 'force-dynamic';
+
+
 // Adicionando headers de CORS para permitir requisições do arquivo HTML solto
 const corsHeaders = {
   'Access-Control-Allow-Origin': '*',
