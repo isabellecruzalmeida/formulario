@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import prisma from '../../lib/prisma';
+import prisma from '../../../lib/prisma';
 
 // Adicionando headers de CORS para permitir requisições do arquivo HTML solto
 const corsHeaders = {
